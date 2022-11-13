@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\github\\gnomeadventures\\gnomeadventures\\source\\gnomeadventures\\gnomeadventures.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\gnomeadventures\\gnomeadventures\\intermediate\\build\\win64\\gnomeadventureseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\github\\gnomeadventures\\gnomeadventures\\intermediate\\build\\win64\\unrealeditor\\development\\gnomeadventures\\definitions.gnomeadventures.h",
+            "d:\\github\\gnomeadventures\\gnomeadventures\\source\\gnomeadventures\\gnomeadventures.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

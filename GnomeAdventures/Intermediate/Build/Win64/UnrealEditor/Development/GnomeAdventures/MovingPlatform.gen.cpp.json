@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\github\\gnomeadventures\\gnomeadventures\\intermediate\\build\\win64\\unrealeditor\\inc\\gnomeadventures\\movingplatform.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\gnomeadventures\\gnomeadventures\\intermediate\\build\\win64\\gnomeadventureseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\github\\gnomeadventures\\gnomeadventures\\intermediate\\build\\win64\\unrealeditor\\development\\gnomeadventures\\definitions.gnomeadventures.h",
+            "d:\\github\\gnomeadventures\\gnomeadventures\\source\\gnomeadventures\\movingplatform.h",
+            "d:\\github\\gnomeadventures\\gnomeadventures\\intermediate\\build\\win64\\unrealeditor\\inc\\gnomeadventures\\movingplatform.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
