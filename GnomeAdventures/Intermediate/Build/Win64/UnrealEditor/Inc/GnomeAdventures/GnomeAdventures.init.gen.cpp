@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGnomeAdventures_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x488FA7D2,
+				0xE2638B1E,
 				0x4CF7B17F,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeGnomeAdventures_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_GnomeAdventures.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GnomeAdventures(Z_Construct_UPackage__Script_GnomeAdventures, TEXT("/Script/GnomeAdventures"), Z_Registration_Info_UPackage__Script_GnomeAdventures, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x488FA7D2, 0x4CF7B17F));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GnomeAdventures(Z_Construct_UPackage__Script_GnomeAdventures, TEXT("/Script/GnomeAdventures"), Z_Registration_Info_UPackage__Script_GnomeAdventures, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xE2638B1E, 0x4CF7B17F));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

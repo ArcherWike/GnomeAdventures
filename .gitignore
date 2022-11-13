@@ -80,3 +80,8 @@ LearningKit_Games/*
 Hour_of_Code/*
 Collections/*
 BlockGame/*
+
+*.uasset
+*.json
+*.umap
+*.log
