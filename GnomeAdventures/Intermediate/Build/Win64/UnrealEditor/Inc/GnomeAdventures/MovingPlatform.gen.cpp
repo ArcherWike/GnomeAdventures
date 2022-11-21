@@ -58,9 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingPlatform_Statics::NewProp_Direction_MetaData[] = {
 		{ "Category", "MovingPlatform" },
-		{ "Comment", "//CurentLocation += PlatformVelocity * DeltaTime;\n" },
 		{ "ModuleRelativePath", "MovingPlatform.h" },
-		{ "ToolTip", "CurentLocation += PlatformVelocity * DeltaTime;" },
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMovingPlatform_Statics::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMovingPlatform, Direction), METADATA_PARAMS(Z_Construct_UClass_AMovingPlatform_Statics::NewProp_Direction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMovingPlatform_Statics::NewProp_Direction_MetaData)) };
@@ -123,9 +121,9 @@ void EmptyLinkFunctionForGeneratedCodeMovingPlatform() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GnomeAdventures_Source_GnomeAdventures_MovingPlatform_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 3884517690U) },
+		{ Z_Construct_UClass_AMovingPlatform, AMovingPlatform::StaticClass, TEXT("AMovingPlatform"), &Z_Registration_Info_UClass_AMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingPlatform), 153043182U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GnomeAdventures_Source_GnomeAdventures_MovingPlatform_h_885669430(TEXT("/Script/GnomeAdventures"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GnomeAdventures_Source_GnomeAdventures_MovingPlatform_h_1672020816(TEXT("/Script/GnomeAdventures"),
 		Z_CompiledInDeferFile_FID_GnomeAdventures_Source_GnomeAdventures_MovingPlatform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GnomeAdventures_Source_GnomeAdventures_MovingPlatform_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -42,6 +42,12 @@
     <Filter Include="Source\GnomeAdventures">
       <UniqueIdentifier>{ECB29D35-5405-3AB2-BE71-9D10BB2EB326}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GnomeAdventures\FlyingPlatform.cpp">
+      <Filter>Source\GnomeAdventures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GnomeAdventures\FlyingPlatform.h">
+      <Filter>Source\GnomeAdventures</Filter>
+    </ClInclude>
     <None Include="..\..\Source\GnomeAdventures\GnomeAdventures.Build.cs">
       <Filter>Source\GnomeAdventures</Filter>
     </None>

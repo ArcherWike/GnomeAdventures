@@ -24,11 +24,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 
-	//FVector CurrentLocation = GetActorLocation();
-
-	//CurentLocation += PlatformVelocity * DeltaTime;
-
-
 
 
 	UPROPERTY(EditAnywhere)
