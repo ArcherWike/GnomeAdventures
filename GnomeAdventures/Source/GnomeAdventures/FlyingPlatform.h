@@ -27,25 +27,11 @@ public:
 	FVector StartPosition;
 
 
-	//Velocity Variable
-	UPROPERTY(EditAnywhere)
-	int32 XVelocity = 100;
-	UPROPERTY(EditAnywhere)
-	int32 YVelocity = 0;
-	UPROPERTY(EditAnywhere)
-	int32 ZVelocity = 0;
-
-
 	UPROPERTY(EditAnywhere)
 	float EndPosition = 100;
 
-
 	UPROPERTY(EditAnywhere)
-	int32 Speed = 20;
-
-
-	UPROPERTY(EditAnywhere)
-	FVector PlatformVelocity = FVector(XVelocity *Speed, YVelocity *Speed, ZVelocity *Speed);
+	FVector PlatformVelocity = FVector(100,0,0);
 
 	UPROPERTY(VisibleAnywhere)
 	float PositionDistance;

@@ -17,18 +17,14 @@ void AFlyingPlatform::BeginPlay()
 	Super::BeginPlay();
 	StartPosition = GetActorLocation();
 
-
 	
 }
 
 // Called every frame
 void AFlyingPlatform::Tick(float DeltaTime)
 {
-
-
 	Super::Tick(DeltaTime);
 	FVector CurrentLocation = GetActorLocation();
-
 	CurrentLocation += PlatformVelocity * DeltaTime;
 
 	SetActorLocation(CurrentLocation);
@@ -38,8 +34,10 @@ void AFlyingPlatform::Tick(float DeltaTime)
 	PositionDistance = FVector::Dist(StartPosition, CurrentLocation);
 
 	if (PositionDistance > EndPosition){
+
+		StartPosition += PlatformVelocity.GetSafeNormal() * EndPosition;
+		SetActorLocation(StartPosition);
 		PlatformVelocity = -PlatformVelocity;
-		StartPosition = CurrentLocation;
 	}
 
 	
